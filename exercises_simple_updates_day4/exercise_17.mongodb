@@ -1,0 +1,11 @@
+use('class');
+db.xmen.updateMany(
+  { class: "gama" },
+  {
+    $currentDate: { lastUpdate: { $type: "timestamp" } },
+    $min: { power: 300 },
+  },
+);
+
+use('class');
+db.movies.find({});

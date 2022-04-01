@@ -1,0 +1,8 @@
+db.survey.updateMany(
+  {},
+  {
+    $pull: {
+      results: { score: 8 , item: "B" },
+    },
+  },
+);

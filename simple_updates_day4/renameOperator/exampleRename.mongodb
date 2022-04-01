@@ -1,0 +1,7 @@
+db.fruits.updateOne(
+  { name: "Banana" },
+  { $rename: {
+      "name": "productName"
+    }
+  }
+);

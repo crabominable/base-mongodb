@@ -1,0 +1,5 @@
+db.collection.updateMany({}, { $min: { campo: 42 } });
+// Atualizando todos os valores do atributo "campo"
+// para 42 caso sejam maiores
+
+db.collection.find();

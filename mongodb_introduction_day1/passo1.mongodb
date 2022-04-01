@@ -1,0 +1,14 @@
+use('data')
+db.inventory.insertOne([
+  {
+    item: "journal",
+    qty: 25,
+    size: { h: 14, w: 21, Uom: 'cm' },
+    status: 'A'
+  }, {
+    item: "tablet",
+    qty: 20,
+    size: { h: 14, w: 21, Uom: 'em' },
+    status: 'B'
+  }
+]);

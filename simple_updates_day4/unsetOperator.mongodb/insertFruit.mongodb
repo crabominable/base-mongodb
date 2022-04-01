@@ -1,0 +1,8 @@
+db.fruits.insertOne(
+  {
+  _id: 10,
+  productName: "Banana",
+  quantity: 100,
+  inStock: true
+}
+);
